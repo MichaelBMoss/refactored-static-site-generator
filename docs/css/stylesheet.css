@@ -1,0 +1,114 @@
+body {
+  background-image: url("../img/creampaper.png");
+  background-repeat: repeat;
+  margin-left: -200px;
+}
+
+.header {
+  margin-top: 13px;
+  font-size: 48px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo  {
+  height: 40px;
+  float:left;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-left: 250px;
+}
+
+.main_image {
+  margin-top: 40px;
+}
+
+.link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 27px;
+}
+
+.links_line {
+  margin-left: 30px;
+  margin-top: 100px;
+  border-bottom: 1px solid black;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.contact_home {
+  margin-left: 163px;
+}
+
+.contact_bio {
+  margin-left: 155px;
+}
+
+.contact_contact {
+  margin-left: 155px;
+  border: 1px solid black;
+  padding: 7px;
+}
+
+.bio_border {
+  margin-left: 98px;
+  border: 1px solid black;
+  padding: 7px;
+}
+
+.bio {
+  margin-left: 105px;
+}
+
+.joke {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 45px;
+  margin-top: 22px;
+}
+
+.first_line {
+  line-height: 23px;
+  margin-left: 80px;
+  margin-right: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 35px;
+}
+
+.line_height {
+  line-height: 23px;
+  margin-left: 80px;
+  margin-right: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+}
+
+.attribution {
+  margin-left: 100px;
+}
+
+.hello_world {
+  line-height: 150px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 140px;
+  font-family: 'Open Sans', sans-serif;
+}

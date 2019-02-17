@@ -1,0 +1,46 @@
+def main():
+
+top = open("templates/top.html").read()
+
+
+
+
+
+
+pages = [
+{
+"filename": "content/home.html",
+"output": "docs/home.html",
+"title": "Homepage",
+},
+{
+"filename": "content/bio.html",
+"output": "docs/bio.html",
+"title": "My Bio",
+},
+{
+"filename": "content/contact.html",
+"output": "docs/contact.html",
+"title": "My Contact Page",
+},
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+main()
