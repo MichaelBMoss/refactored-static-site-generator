@@ -1,20 +1,18 @@
 pages = [
 {
 "filename": "content/home.html",
-"output": "docs/mike_moss_home.html",
+"output": "docs/home.html",
 },
 {
 "filename": "content/bio.html",
-"output": "docs/mike_moss_bio.html",
+"output": "docs/bio.html",
 },
 {
 "filename": "content/contact.html",
-"output": "docs/mike_moss_contact.html",
+"output": "docs/contact.html",
 },
 
 ]
-
-
 
 for page in pages:
     top_template = open('templates/top.html').read()
