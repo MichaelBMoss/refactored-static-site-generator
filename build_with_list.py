@@ -3,7 +3,7 @@ pages = [
     "filename": "content/index.html",
     "output": "docs/index.html",
     },
-    {
+    {git
     "filename": "content/bio.html",
     "output": "docs/bio.html",
     },
