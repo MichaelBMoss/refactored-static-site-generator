@@ -1,7 +1,7 @@
 pages = [
 {
-"filename": "content/home.html",
-"output": "docs/home.html",
+"filename": "content/index.html",
+"output": "docs/index.html",
 },
 {
 "filename": "content/bio.html",
