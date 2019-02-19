@@ -13,9 +13,10 @@ pages = [
     },
 ]
 
-
 for page in pages: 
     template = open("templates/base.html").read()
     content = open(page['filename']).read()
     combined = template.replace("{{content_placeholder}}", content)
     open(page['output'], "w+").write(combined) 
+    
+
