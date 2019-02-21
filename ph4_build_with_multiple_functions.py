@@ -25,7 +25,6 @@ def create_page(list_number):
 
 def main():
     for num in range (0, 3):
-        combine_pages(num)
         create_page(num)
 
 main()
